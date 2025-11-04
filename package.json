@@ -1,0 +1,43 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website built with HTML5, CSS3, JavaScript, and React components",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -o",
+    "dev": "npx live-server --port=8000 --open=/index.html",
+    "build": "echo 'No build process needed - static files ready to deploy!'",
+    "deploy": "echo 'Upload files to your hosting provider'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "html5",
+    "css3",
+    "javascript",
+    "react",
+    "responsive",
+    "modern",
+    "animation",
+    "developer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio.git"
+  },
+  "homepage": "https://yourusername.github.io/portfolio",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
